@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "ニコモジ+";
+    src: url(fonts/nicokaku-plus_v2.5/nicokaku_v2-5.ttf);
+  }
+  *{
+    font-family: "ニコモジ+";
+  }
+
+
+body.dark-theme {
+    background-color: #333;
+    color: #f9f9f9;
+}
+button.dark-theme {
+    background-color: #444 !important;
+    color: #f9f9f9 !important;
+}

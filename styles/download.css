@@ -1,0 +1,56 @@
+h1{
+    font-family: "ニコモジ+";
+    margin:20px 37%;
+    border-bottom: 3px solid;
+}
+#new{
+    font-weight: bold;
+    font-size: 40px;
+}
+#old{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button{
+    font-size: 30px;
+    border-radius: 50%;
+    height: 50px;
+    color:  #f4f4f4;
+    background-color: #007BFF;;
+    font-family: "ニコモジ+";
+   
+}
+.nakami{
+    font-family: "ニコモジ+";
+}
+button:hover{
+    background-color: #323247;
+    color: #f4f4f4
+
+    
+}
+@font-face {
+    font-family: "ニコモジ+";
+    src: url(http://localhost/private/fonts/nicokaku-plus_v2.5/nicokaku_v2-5.ttf);
+  }
+.nakami{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.group{
+    padding: 40px;
+    background-color: rgba(214, 213, 213, 0.486);
+   border: 2px solid;
+   border-radius: 50px;
+ height: 200px;
+}
+.expand-text {
+
+    transition: transform 0.2s ease; /* マウスオーバー時の変形のアニメーション */
+    cursor: pointer;
+}
+
+.expand-text:hover {
+    transform: scale(1.25); /* マウスオーバーで1.5倍に拡大 */
+}
